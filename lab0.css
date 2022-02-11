@@ -1,0 +1,87 @@
+:root {
+  --green: #56e078;
+  --red: #f3827c;
+  --grey: #efefef;
+  --white: #fff;
+}
+#part1,
+#part2,
+h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Part 1 CSS */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 90vw;
+}
+tbody {
+  border: 2px solid black;
+}
+
+#dwi {
+  background-color: burlywood;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+#header th {
+  border: 2px solid #333;
+  width: 33%;
+  background-color: var(--grey);
+}
+
+tr td h1 {
+  font-weight: normal;
+}
+#header th h1 {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(1) {
+  background-color: var(--white);
+}
+tbody tr:nth-child(2) {
+  background-color: var(--red);
+}
+tbody tr:nth-child(3) {
+  background-color: var(--green);
+}
+
+#header th:nth-child(1) {
+  background-color: var(--white);
+}
+
+#header th:nth-child(2) {
+  background-color: var(--red);
+}
+
+#header th:nth-child(3) {
+  background-color: var(--green);
+}
+tr {
+  text-align: center;
+}
+
+td {
+  border: 0px;
+}
+/* Part 2 CSS */
+button {
+  margin-bottom: 0;
+  font-weight: 400px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: medium;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+button:hover {
+  background-color: #157347;
+  border-color: #146c43;
+}
